@@ -75,6 +75,8 @@ page = client.get_block(normal_page_url)
 #         for subchild in child.children:
 #             print(subchild)
 
+# -------------- adding table of contents -------------- #
+# for this some modificaions have to be made
 page.children.add_new(TableOfContentsBlock)
 
 """ 
